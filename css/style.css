@@ -1,0 +1,104 @@
+
+/******************На весь код***********************/
+body{
+    font-family: 'Cormorant+SC';
+    background-color: #E5E5E5;
+    color:#333333;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/************************Шапка-логотип-номер телефона- кнопка вызова*********************/
+header{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216, 176, 143);
+  
+}
+
+.number{
+    font-size: 1.2em;
+}
+
+
+.header-info button{
+    font-size: 14px;
+    border-radius: 20px;
+    border: 2px solid rgb(48, 32, 19);
+    background-color: transparent;
+    padding: 10px 25px;
+    margin-left: 5px;
+   }
+   
+   .header-info button:hover{
+       background-color: rgb(255, 255, 255);
+   }
+
+ /***************Строка меню*******************************/
+
+nav {
+     background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em;
+    color: brown;
+}
+ 
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+}
+/*******************Баннер с эксплекацией**********************/
+.banner{
+    height: 50vh;
+    background-image: url("../img/дополнительно/eksp.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*************Блок заявок на главной странице******************/
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    padding: 2em 0;
+}
+
+.order{
+    margin: auto;
+    text-align: center;
+    border: black solid 1px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.order img{
+    width: 50%;
+    
+}
+
+.order img:hover{
+  
+    transform: rotate(180grad);
+}
+
+
+
+.cat{
+    background-color: coral;
+    border-radius: 5px;
+}
